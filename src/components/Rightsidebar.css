@@ -1,0 +1,19 @@
+.widgets{
+    flex: 1;
+}
+.widgets-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.widgets-article{
+    display: flex;
+    padding-top: 10px;
+    color: gray;
+    
+}
+.widgets-article:hover{
+    background-color: lightgray;
+    color: black;
+    
+}

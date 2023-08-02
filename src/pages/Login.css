@@ -1,0 +1,82 @@
+.login-div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 100%;
+}
+.login-div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    
+}
+.login>img{
+    width: 100%;
+}
+.login-div-1>form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login-div-1>form>input{
+    padding-left: 10px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.login-div-1>form>input[type=text]:focus{
+    outline: #0072b1;
+    border: 2px solid #0072b1;
+}
+.login-div-1>form>input[type=password]:focus{
+    outline: #0072b1;
+    border: 2px solid #0072b1;
+}
+.login-div-1>form>a{
+    text-decoration: none;
+    color: #0072b1 ;
+    font-size: medium;
+    font-weight: 600;
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.login-div-1>form>a:hover{
+    text-decoration: underline;
+    border-radius: 1.2rem;
+    background-color:#bedeef;
+}
+
+.login-div-1>form>button{
+    height: 50px;
+    border: none;
+    background-color: #0072b1;
+    border-radius: 1.4rem;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+}
+
+.login-div-1>form>button:hover{
+    background-color: #035986;
+}
+.login-div-1>p{
+    font-family: 'popins', sans-serif;
+    margin-top: 10px;
+}
+.login-div-1>p>a{
+    text-decoration: none;
+    color: #0072b1;
+    font-weight: 600;
+}

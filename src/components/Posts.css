@@ -1,0 +1,29 @@
+.posts{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.post-header{
+    display: flex;
+}
+.post-info{
+    margin-left: 10px;
+}
+.post-info>p{
+    color: gray;
+    font-size: 12px;
+}
+.post-body{
+    overflow-wrap: anywhere;
+}
+.post-info>h3{
+    font-size: 15px;
+}
+.post-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.post-body{
+    padding: 10px;
+}

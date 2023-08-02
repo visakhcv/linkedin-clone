@@ -1,0 +1,113 @@
+.side-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.bg-image{
+    width: 100%;
+}
+.bg-image>img{
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+.side-userpic{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.side-userpic>img{
+    width: 60px;
+    border-radius: 50%;
+}
+.side-profile>h3{
+    font-family: 'popins', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+.side-profile>h4{
+    font-family: 'popins', sans-serif;
+    margin: 0px;
+    color: gray;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sidebar-stats{
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+.sidebar-stat{
+    display: flex;
+    justify-content: left;
+    color: gray;
+    padding: 10px;
+}
+.sidebar-stat>p{
+    text-align: left;
+    width: 70%;
+    font-size: 0.9rem;
+}
+.sidebar-stat>span{
+    width: 30%;
+    text-align: right;
+}
+.stat-views{
+    color: #0072b1;
+    font-weight: 600;
+}
+.myitems{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.myitems>i{
+    padding-left: 10px;
+   
+}
+.myitems>p{
+    padding-left: 10px;
+    font-weight: 600;
+}
+.sidebar-bottom{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.sidebar-recentitem{
+    display: flex;
+    font-size: 14px;
+    font-weight: bolder;
+    color: gray;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.sidebar-hash{
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.sidebar-recentitem>p{
+    padding-left: 10px;
+}
+.sidebar-recentitem:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
