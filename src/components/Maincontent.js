@@ -36,6 +36,7 @@ function Maincontent() {
     console.log(posts);
   },[])
 
+  
 
   const sendpost=(e)=>{
     e.preventDefault()
@@ -46,6 +47,7 @@ function Maincontent() {
       photourl : user.photourl || '',
       timestamp: firebase.firestore.FieldValue.serverTimestamp()
     })
+    setInput('')
   }
 
   return (

@@ -33,9 +33,9 @@ function Header() {
             <div className='header-right'>
                 <Headeroptions Icon={HomeIcon} title="Home"/>
                 <Headeroptions Icon={SupervisorAccountIcon} title="My Network"/>
-                <Headeroptions Icon={BusinessCenterIcon} title="My Network"/>
-                <Headeroptions Icon={ChatIcon} title="My Network"/>
-                <Headeroptions Icon={NotificationsIcon} title="My Network"/>
+                <Headeroptions Icon={BusinessCenterIcon} title="Jobs"/>
+                <Headeroptions Icon={ChatIcon} title="Messaging"/>
+                <Headeroptions Icon={NotificationsIcon} title="Notifications"/>
                 <Headeroptions avatar={true} onclick={logoutofApp}  title='me'  />
                 
             </div>
