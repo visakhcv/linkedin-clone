@@ -1,10 +1,10 @@
 .main-feed{
     display: flex;
     padding-top: 35px;
-    max-width: 1200px;
     padding-left: 10%;
     padding-right: 10%;
     background-color: rgb(238, 237, 237);
+    height: 100vh;
 }
 .sidebar{
     top: 0;
